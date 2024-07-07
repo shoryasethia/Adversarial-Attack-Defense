@@ -94,9 +94,5 @@ After training, each modified VGG16 model is split into two parts:
 * **Gradient Space:** Adversarial attacks often rely on finding directions in the gradient space that lead to misclassification. By using multiple parallel channels with different initializations, the gradient space becomes non-uniform across different instances of the model.
 * **Stochastic Behavior:** The random selection of channels during inference introduces stochasticity, making it difficult for attackers to craft adversarial examples that generalize across different instances of the model.
 
-## Results
-![Before Adding Defence](https://github.com/shoryasethia/Adversarial-Attack-Defence/blob/main/Res1.png)
-![After Adding Defence](https://github.com/shoryasethia/Adversarial-Attack-Defence/blob/main/Res2.png)
-
 ### Author : [@shoryasethia](https://github.com/shoryasethia)
 > If you liked anything, do give this repo a star.
